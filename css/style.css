@@ -118,11 +118,10 @@ header .wrapper {}
 header .wrapper section.head {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
 }
 
 header .wrapper section.head .left {
-    font-size: 15px;
+
     display: flex;
     padding-top: 20px;
 }
@@ -133,7 +132,8 @@ header .wrapper section.head .left h1 a {}
 
 header .wrapper section.head .left h1 a img {
     color: #fff;
-
+    display: block;
+    width: 100%;
 }
 
 header .wrapper section.head div.middle {
@@ -143,16 +143,14 @@ header .wrapper section.head div.middle {
 
 header div.middle ul {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     justify-content: space-between;
     width: 500px;
 }
 
 header .wrapper section.head .middle ul li {
-    margin-left: 20px;
-    padding-top: 35px;
-
-
+    margin-top: 35px;
+    text-align: center;
 }
 
 header .wrapper section.head .middle ul li a {
@@ -167,12 +165,13 @@ header .wrapper section.head .right ul {
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
-
+    height: 100%;
 }
 
 header .wrapper section.head .right ul li {
-    margin-left: 20px;
-    padding-top: 35px;
+    margin-left: 35px;
+    text-align: center;
+    margin-top: 23px;
 }
 
 header .wrapper section.head .right ul li a {
@@ -182,9 +181,60 @@ header .wrapper section.head .right ul li a {
 
 header .wrapper section.head .right ul li a.button {
     background: #e8e8e8;
-    border-radius: 20px;
+    border-radius: 43px;
     width: 20px;
     padding: 12px 12px;
     color: #0b0a0a;
     font-weight: bold;
 }
+
+section.bottom {
+    text-align: center;
+}
+
+section.bottom section.container {
+    padding: 80px;
+}
+
+section.bottom section.container h1 {
+    font-size: 68px;
+    color: #e8e8e8;
+    font-weight: 600;
+    width: 50%;
+    margin: 0 auto;
+}
+
+section.bottom section.container p {
+    width: 40%;
+    margin: 50px  auto;
+}
+
+section.bottom section.container a.button {
+
+}
+
+section.bottom section.container a.button span {}
+
+section.bottom section.container a.button span img {}
+
+section.bottom section.container a.arrow {}
+
+section.bottom section.container a.arrow img {}
+
+section.bottom section.sticker {}
+
+section.bottom section.sticker div.one {}
+
+section.bottom section.sticker div.one img {}
+
+section.bottom section.sticker div.two {}
+
+section.bottom section.sticker div.two img {}
+
+section.bottom section.sticker div.three {}
+
+section.bottom section.sticker div.three img {}
+
+section.bottom section.sticker div.four {}
+
+section.bottom section.sticker div.four img {}
