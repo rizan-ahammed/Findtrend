@@ -110,7 +110,7 @@ br.clear {
 
 header {
     background: url(../assets/img/spot\ light.jpg);
-    height: 935px;
+    height: 900px;
 }
 
 header .wrapper {}
@@ -221,13 +221,11 @@ section.bottom section.container a.button {
 }
 
 section.bottom section.container a.button span {
-    /* display: inline-block; */
-    /* padding-top: 29px; */
+
     position: relative;
 }
 
 section.bottom section.container a.button span img {
-    /* margin-top: 10px; */
     position: absolute;
     top: -3px;
 }
@@ -248,8 +246,9 @@ section.bottom section.sticker {
 section.bottom section.sticker div.one {
     position: absolute;
     transform: rotate(-14deg);
-    left: 174px;
-    top: 87px;
+    left: 361px;
+    top: 73px;
+    width: 15%;
     z-index: 2;
 }
 
@@ -260,21 +259,22 @@ section.bottom section.sticker div.one img {
 
 section.bottom section.sticker div.two {
     position: absolute;
-    margin-left: 40%;
-    left: -40px;
-    top: 130px;
+    width: 15%;
+    left: 558px;
+    top: 101px;
 }
 
 section.bottom section.sticker div.two img {
-    width: 57%;
+    width: 100%;
     display: block;
 }
 
 section.bottom section.sticker div.three {
     position: absolute;
-    transform: rotate(8deg);
-    left: 911px;
-    top: 174px;
+    transform: rotate(-2deg);
+    width: 15%;
+    left: 761px;
+    top: 53px;
 }
 
 section.bottom section.sticker div.three img {
@@ -283,14 +283,70 @@ section.bottom section.sticker div.three img {
 }
 
 section.bottom section.sticker div.four {
-
     position: absolute;
     transform: rotate(10deg);
-    left: 755px;
+    left: 945px;
     top: 109px;
+    width: 15%;
 }
 
 section.bottom section.sticker div.four img {
     width: 100%;
     display: block;
+}
+
+#open {
+    background: #a6ff34;
+    height: 94vh;
+}
+
+#open .wrapper {
+    height: 94vh;
+}
+
+
+#open .wrapper h1 {
+    padding: 90px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #0b0a0a;
+    text-align: center;
+}
+
+#open .wrapper .search {
+    position: absolute;
+    margin-left: 25%;
+    background: #e8e8e8;
+    border-radius: 13px;
+    padding: 39px 42px 37px 42px;
+    width: 30%;
+}
+
+#open .wrapper .search img {
+    width: 100%;
+    display: block;
+}
+
+#open .wrapper .right {
+    position: absolute;
+    right: 386px;
+}
+
+#open .wrapper .right img {}
+
+#open .wrapper .left {
+    position: absolute;
+    left: 392px;
+}
+
+#open .wrapper .left img {
+    transform: scaleX(-1);
+}
+
+#open .wrapper p {
+    text-align: center;
+    color: #8e8e8e;
+    text-align: center;
+    width: 50%;
+    margin: 237px auto;
 }
