@@ -110,7 +110,7 @@ br.clear {
 
 header {
     background: url(../assets/img/spot\ light.jpg);
-    height: 825px;
+    height: 935px;
 }
 
 header .wrapper {}
@@ -206,35 +206,91 @@ section.bottom section.container h1 {
 
 section.bottom section.container p {
     width: 40%;
-    margin: 50px  auto;
+    margin: 50px auto;
+    color: #666666;
 }
 
 section.bottom section.container a.button {
-
+    font-size: 20px;
+    background: #a6ff34;
+    border-radius: 104px;
+    padding: 20px 54px;
+    margin-left: 113px;
+    font-weight: bold;
+    color: #0b0a0a;
 }
 
-section.bottom section.container a.button span {}
+section.bottom section.container a.button span {
+    /* display: inline-block; */
+    /* padding-top: 29px; */
+    position: relative;
+}
 
-section.bottom section.container a.button span img {}
+section.bottom section.container a.button span img {
+    /* margin-top: 10px; */
+    position: absolute;
+    top: -3px;
+}
 
 section.bottom section.container a.arrow {}
 
-section.bottom section.container a.arrow img {}
+section.bottom section.container a.arrow img {
+    color: #e8e8e8;
+    font-size: 70px;
 
-section.bottom section.sticker {}
+}
 
-section.bottom section.sticker div.one {}
+section.bottom section.sticker {
+    position: relative;
+    text-align: center;
+}
 
-section.bottom section.sticker div.one img {}
+section.bottom section.sticker div.one {
+    position: absolute;
+    transform: rotate(-14deg);
+    left: 174px;
+    top: 87px;
+    z-index: 2;
+}
 
-section.bottom section.sticker div.two {}
+section.bottom section.sticker div.one img {
+    width: 100%;
+    display: block;
+}
 
-section.bottom section.sticker div.two img {}
+section.bottom section.sticker div.two {
+    position: absolute;
+    margin-left: 40%;
+    left: -40px;
+    top: 130px;
+}
 
-section.bottom section.sticker div.three {}
+section.bottom section.sticker div.two img {
+    width: 57%;
+    display: block;
+}
 
-section.bottom section.sticker div.three img {}
+section.bottom section.sticker div.three {
+    position: absolute;
+    transform: rotate(8deg);
+    left: 911px;
+    top: 174px;
+}
 
-section.bottom section.sticker div.four {}
+section.bottom section.sticker div.three img {
+    width: 100%;
+    display: block;
+}
 
-section.bottom section.sticker div.four img {}
+section.bottom section.sticker div.four {
+
+    position: absolute;
+    transform: rotate(10deg);
+    left: 755px;
+    top: 109px;
+}
+
+section.bottom section.sticker div.four img {
+    width: 100%;
+    display: block;
+}
