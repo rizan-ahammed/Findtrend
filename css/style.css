@@ -23,7 +23,7 @@ del {
 body {
     font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
     font-size: 17px;
-    color: #253858;
+    color: #000;
     overflow-x: hidden;
     min-width: 320px;
     font-weight: 500;
@@ -298,6 +298,7 @@ section.bottom section.sticker div.four img {
 #open {
     background: #a6ff34;
     height: 94vh;
+    margin-top: 3px;
 }
 
 #open .wrapper {
@@ -346,7 +347,58 @@ section.bottom section.sticker div.four img {
 #open .wrapper p {
     text-align: center;
     color: #8e8e8e;
-    text-align: center;
-    width: 50%;
+    width: 45%;
     margin: 237px auto;
+}
+
+
+
+section#logo {}
+
+section#logo section.wrapper {}
+
+section#logo section.wrapper h1 {
+    font-size: 63px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+section#logo section.wrapper h1 span {
+    color: #808080;
+    font-weight: 700;
+}
+
+section#logo section.wrapper div.two {}
+
+section#logo section.wrapper div.two h3 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 200px;
+    font-weight: 500;
+}
+
+section#logo section.wrapper div.two ul {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#logo section.wrapper div.two ul li {
+    width: 23%;
+    background: #000;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section#logo section.wrapper div.two ul li div {
+    width: 50%;
+    margin: 40px auto;
+    border-radius: 56%;
+}
+
+section#logo section.wrapper div.two ul li div img {
+    display: block;
+    width: 100%
 }
