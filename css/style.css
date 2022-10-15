@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+body {
+    font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #253858;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
+}
+
+input, textarea, select {
+    font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    color: #253858;
+}
+
+a:hover, .submit:hover {
+    filter: alpha(opacity=85);
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+}
+
+.thumb {
+    display: block;
+}
+
+.thumb img {
+    display: block;
+    width: 100%;
+}
+
+p {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: "GT-Eesti", Arial;
+    font-weight: 500;
+    color: #42526E;
+}
+
+.hidden {
+    display: none;
+}
+
+br.clear {
+    clear: both;
+    line-height: 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.woff2') format('woff2'),
+        url('Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Medium.woff2') format('woff2'),
+        url('Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+::placeholder {
+    color: #a6ff34;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #a6ff34;
+}
+
+::-ms-input-placeholder {
+    color: #a6ff34;
+}
+
+header {
+    background: url(../assets/img/spot\ light.jpg);
+    height: 825px;
+}
+
+header .wrapper {}
+
+header .wrapper section.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+header .wrapper section.head .left {
+    font-size: 15px;
+    display: flex;
+    padding-top: 20px;
+}
+
+header .wrapper section.head .left h1 {}
+
+header .wrapper section.head .left h1 a {}
+
+header .wrapper section.head .left h1 a img {
+    color: #fff;
+
+}
+
+header .wrapper section.head div.middle {
+    display: flex;
+    justify-content: center;
+}
+
+header div.middle ul {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 500px;
+}
+
+header .wrapper section.head .middle ul li {
+    margin-left: 20px;
+    padding-top: 35px;
+
+
+}
+
+header .wrapper section.head .middle ul li a {
+    color: #e8e8e8;
+    align-items: center;
+
+}
+
+header .wrapper section.head .right {}
+
+header .wrapper section.head .right ul {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+header .wrapper section.head .right ul li {
+    margin-left: 20px;
+    padding-top: 35px;
+}
+
+header .wrapper section.head .right ul li a {
+    color: #e8e8e8;
+
+}
+
+header .wrapper section.head .right ul li a.button {
+    background: #e8e8e8;
+    border-radius: 20px;
+    width: 20px;
+    padding: 12px 12px;
+    color: #0b0a0a;
+    font-weight: bold;
+}
