@@ -606,6 +606,7 @@ section#deal section.wrapper ul li.three {
     width: 30%;
     border-radius: 15px;
     padding: 20px;
+    8%
 }
 
 section#deal section.wrapper ul li.three h3 {
@@ -623,17 +624,14 @@ section#deal section.wrapper ul li.three hr.line {
 }
 
 section#deal section.wrapper ul li.three ul {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-section#deal section.wrapper ul li.three ul li {
-    width: 45%;
-
-}
+section#deal section.wrapper ul li.three ul li {}
 
 section#deal section.wrapper ul li.three ul li div.viv {
     width: 20%;
+
 }
 
 section#deal section.wrapper ul li.three ul li div.viv img {
@@ -656,3 +654,73 @@ section#deal section.wrapper ul li.three a.button {
     margin: 0 auto;
     text-align: center;
 }
+
+section.email {
+    height: 500px;
+    background-color: #a8ff36;
+
+}
+
+section.email section.wrapper {}
+
+section.email section.wrapper h1 {
+    width: 50%;
+    font-size: 68px;
+    margin: 0 auto;
+}
+
+section.email section.wrapper span {
+    color: #86d321;
+    width: 50%;
+    font-size: 68px;
+    margin: 0 auto;
+}
+
+section.email section.wrapper a.button {
+    border: 1px;
+    color: white;
+    padding: 13px;
+    background: #000;
+    font-weight: 600;
+    border-radius: 40px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+footer {
+    padding: 20px;
+}
+
+footer section.wrapper {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+footer section.wrapper div.left {
+    width: 20%;
+}
+
+footer section.wrapper div.left img {
+    width: 100%;
+    display: block;
+}
+
+footer section.wrapper div.right {
+    padding-top: 20px;
+    width: 32%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer section.wrapper div.right ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer section.wrapper div.right ul li {}
