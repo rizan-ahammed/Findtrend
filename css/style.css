@@ -433,6 +433,10 @@ section.musk section.wrapper section.top ul li {
     border-radius: 10px;
 }
 
+section.musk section.wrapper section.top ul li:hover {
+    background: #a6ff34;
+}
+
 section.musk section.wrapper section.top ul li div.img {
     width: 50%;
     margin: 25px auto;
@@ -718,3 +722,77 @@ footer section.wrapper div.right ul {
 }
 
 footer section.wrapper div.right ul li {}
+
+
+
+@media all and (max-width: 1380px) {
+    section.bottom section.sticker div.one {
+        top: 10%;
+        left: 274px;
+
+    }
+
+    #open .wrapper .left {
+        left: 18%;
+    }
+
+    #open .wrapper .right {
+        right: 27%;
+    }
+
+    #open .wrapper .search {
+        right: 39%;
+    }
+
+    section.bottom section.sticker div.two {
+        top: 19px;
+        left: 450px;
+
+    }
+
+
+    section.bottom section.sticker div.three {
+        top: 10%;
+        left: 641px;
+
+    }
+
+    section.bottom section.sticker div.four {
+        top: -19px;
+        left: 823px;
+    }
+
+    footer section.wrapper div.right {
+        width: 41%;
+
+
+    }
+}
+
+@media all and (max-width: 1280px) {
+    header .wrapper section.head div.middle {
+        width: 42%;
+    }
+
+    section.bottom section.container h1 {
+        font-size: 40px;
+    }
+
+    section.bottom section.container p {
+        width: 25%;
+    }
+
+    section.bottom section.sticker div.two {
+        left: 417px;
+    }
+
+    section.bottom section.sticker div.three {
+
+        top: -16px;
+        left: 565px;
+    }
+
+    section.bottom section.sticker div.four {
+        top: 20px;
+        left: 713px;
+    }
