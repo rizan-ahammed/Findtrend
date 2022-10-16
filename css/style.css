@@ -488,12 +488,11 @@ section#deal section.wrapper h1 {
 section#deal section.wrapper div.mac {
     display: flex;
     justify-content: center;
-    /* width: 100%; */
     margin: 32px;
 }
 
 section#deal section.wrapper div.mac span {
-    margin: 50px ;
+    margin: 50px;
     color: #fff;
 }
 
@@ -528,6 +527,7 @@ section#deal section.wrapper ul li.one {
     background-color: white;
     border-radius: 15px;
     width: 30%;
+    padding: 20px;
 }
 
 section#deal section.wrapper ul li.one h3 {}
@@ -546,12 +546,24 @@ section#deal section.wrapper ul li.one ul li div.viv img {}
 
 section#deal section.wrapper ul li.one ul li div.viv span {}
 
-section#deal section.wrapper ul li.one a.button {}
+section#deal section.wrapper ul li.one a.button {
+    border: 1px;
+    color: black;
+    padding: 13px;
+    background: #a8ff36;
+    font-weight: 600;
+    border-radius: 40px;
+    display: block;
+    width: 76%;
+    margin: 0 auto;
+    text-align: center;
+}
 
 section#deal section.wrapper ul li.two {
     background-color: #a8ff36;
     width: 30%;
     border-radius: 15px;
+    padding: 20px;
 }
 
 section#deal section.wrapper ul li.two h3 {}
@@ -564,34 +576,83 @@ section#deal section.wrapper ul li.two ul {}
 
 section#deal section.wrapper ul li.two ul li {}
 
-section#deal section.wrapper ul li.two ul li div.viv {}
+section#deal section.wrapper ul li.two ul li div.viv {
+    ;
+}
 
-section#deal section.wrapper ul li.two ul li div.viv img {}
+section#deal section.wrapper ul li.two ul li div.viv img {
+    width: 100%;
+    display: block;
+
+}
 
 section#deal section.wrapper ul li.two ul li div.viv span {}
 
-section#deal section.wrapper ul li.two a.button {}
+section#deal section.wrapper ul li.two a.button {
+    border: 1px;
+    color: white;
+    padding: 13px;
+    background: #000;
+    font-weight: 600;
+    border-radius: 40px;
+    display: block;
+    width: 76%;
+    margin: 0 auto;
+    text-align: center;
+}
 
 section#deal section.wrapper ul li.three {
     background-color: #fff;
     width: 30%;
     border-radius: 15px;
+    padding: 20px;
 }
 
-section#deal section.wrapper ul li.three h3 {}
+section#deal section.wrapper ul li.three h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
-section#deal section.wrapper ul li.three span {}
+section#deal section.wrapper ul li.three span.three {}
 
-section#deal section.wrapper ul li.three hr.line {}
+section#deal section.wrapper ul li.three hr.line {
+    border: 1px solid #cdcdcd;
+    margin-top: 20px;
+    margin-bottom: 25px
+}
 
-section#deal section.wrapper ul li.three>ul {}
+section#deal section.wrapper ul li.three ul {
+    display: flex;
+    justify-content: space-between;
+}
 
-section#deal section.wrapper ul li.three>ul>li {}
+section#deal section.wrapper ul li.three ul li {
+    width: 45%;
 
-section#deal>section.wrapper>ul>li.three>ul>li>div.viv {}
+}
 
-section#deal section.wrapper ul li.three>ul>li>div.viv img {}
+section#deal section.wrapper ul li.three ul li div.viv {
+    width: 20%;
+}
+
+section#deal section.wrapper ul li.three ul li div.viv img {
+    width: 100%;
+    display: block;
+
+}
 
 section#deal section.wrapper ul li.three ul li div.viv span {}
 
-section#deal section.wrapper ul li.three a.button {}
+section#deal section.wrapper ul li.three a.button {
+    border: 1px;
+    color: black;
+    padding: 13px;
+    background: #a8ff36;
+    font-weight: 600;
+    border-radius: 40px;
+    display: block;
+    width: 76%;
+    margin: 0 auto;
+    text-align: center;
+}
