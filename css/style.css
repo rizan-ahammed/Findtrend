@@ -454,7 +454,7 @@ section.musk section.wrapper section.top div.one img {
 }
 
 section.musk section.wrapper section.top div.button {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 section.musk section.wrapper section.top div.button a.button {
@@ -473,16 +473,17 @@ section.musk section.wrapper section.top div.button a.button {
 
 section#deal {
     background-color: #000;
+    padding-bottom: 100px;
 }
 
 section#deal section.wrapper {}
 
 section#deal section.wrapper h1 {
-    color: black;
-    /* text-align: center; */
-    font-size: 45px;
-    /* padding: 100px 0px 0px; */
+    text-align: center;
+    font-size: 60px;
+    padding-top: 100px;
     font-weight: 700;
+    color: white;
 }
 
 section#deal section.wrapper div.mac {
@@ -525,13 +526,11 @@ section#deal section.wrapper div.mac div.toggle div.arrow img {
 #deal div.deal-bottom div.one {
     width: 30%;
     background: #fff;
-    /* margin-right: 3%; */
-    /* margin-left: 3%; */
     padding: 3%;
     border-radius: 20px;
 }
 
-#deal div.one h1 {
+#deal .wrapper div.deal-bottom div.one h5 {
     font-size: 35px;
     font-weight: bold;
 }
@@ -569,14 +568,11 @@ div.button-bottom {
 div.deal-bottom div.two {
     width: 30%;
     background: greenyellow;
-    /* margin-right: 3%; */
-    /* margin-left: 3%; */
-    /* height: 500px; */
     padding: 3%;
     border-radius: 20px;
 }
 
-div.two h1 {
+div.two h5 {
     font-size: 35px;
     font-weight: bold;
 }
@@ -618,14 +614,11 @@ div.button-bottom-two a.button {
 div.deal-bottom div.three {
     width: 30%;
     background: #fff;
-    /* margin-right: 3%; */
-    /* margin-left: 3%; */
-    /* height: 500px; */
     padding: 3%;
     border-radius: 20px;
 }
 
-div.three h1 {
+div.three h5 {
     font-size: 35px;
     font-weight: bold;
 }
@@ -663,36 +656,32 @@ div.button-bottom {
 section.email {
     height: 500px;
     background-color: #a8ff36;
-
 }
 
-section.email section.wrapper {}
+section.email section.wrapper {
+    text-align: center;
+    padding: 100px 0px;
+}
 
 section.email section.wrapper h1 {
-    width: 50%;
     font-size: 68px;
-    margin: 0 auto;
+    font-weight: 700;
 }
 
-section.email section.wrapper span {
-    color: #86d321;
-    width: 50%;
+section.email section.wrapper p {
     font-size: 68px;
-    margin: 0 auto;
+    color: #72b41c;
+
 }
 
 section.email section.wrapper a.button {
-    border: 1px;
-    color: white;
-    padding: 13px;
+    display: inline-block;
+    padding: 16px 40px;
     background: #000;
-    font-weight: 600;
-    border-radius: 40px;
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-
+    color: #fff;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-top: 40px;
 }
 
 footer {
