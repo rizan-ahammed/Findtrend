@@ -725,6 +725,7 @@ footer section.wrapper div.right ul li {}
 
 
 
+
 @media all and (max-width: 1380px) {
     section.bottom section.sticker div.one {
         top: 10%;
@@ -1010,10 +1011,147 @@ footer section.wrapper div.right ul li {}
     #open .wrapper .right {
         display: none;
     }
-    section#logo section.wrapper h1{
+
+    section#logo section.wrapper h1 {
         font-size: 30px;
     }
-    section#logo section.wrapper div.two h3{
+
+    section#logo section.wrapper div.two h3 {
         font-size: 30px;
     }
+
+    section.musk section.wrapper section.top h2 {
+        font-size: 32px;
+    }
+
+    #deal div.deal-bottom div.one {
+        width: 47%;
+    }
+
+    #deal div.deal-bottom div.two {
+        width: 47%;
+    }
+
+    section.email section.wrapper h1 {
+        font-size: 50px;
+    }
+
+    section.email section.wrapper p {
+        font-size: 50px;
+    }
+
+    section.email section.wrapper a.button {
+        padding: 10px 30px;
+        margin-top: 90px;
+    }
+
+    footer section.wrapper div.right {
+        width: 66%;
+    }
+
+}
+
+@media all and (max-width: 640px) {
+    header {
+        height: 681px;
+    }
+
+    #open {
+        height: 680px;
+    }
+
+    section.bottom section.container a.arrow img {
+        display: none;
+    }
+
+    section.bottom section.container a.button {
+        margin: 0%;
+    }
+
+    section.bottom section.container h1 {
+        font-size: 34px;
+    }
+
+    #open .wrapper .search {
+        width: 55%;
+        right: 114px;
+    }
+
+    section#logo section.wrapper h1 {
+        font-size: 23px;
+    }
+
+    section#logo section.wrapper div.two h3 {
+        font-size: 23px;
+    }
+
+    section#logo section.wrapper div.two ul li {
+        display: none;
+    }
+
+    section.musk section.wrapper section.top h2 {
+        font-size: 26px;
+    }
+
+    section#deal section.wrapper h1 {
+        font-size: 32px;
+    }
+
+    section#deal section.wrapper div.mac span {
+        display: none;
+    }
+
+    #deal div.deal-bottom {
+        flex-wrap: wrap;
+
+    }
+
+    #deal div.deal-bottom div.one {
+        width: 100%;
+    }
+
+    #deal div.deal-bottom div.two {
+        width: 100%;
+    }
+
+    section#deal {
+        height: 171vh;
+    }
+
+    #deal div.deal-bottom div.one {
+        margin-bottom: 38px;
+    }
+
+    section.email section.wrapper h1 {
+        font-size: 45px;
+    }
+
+    section.email section.wrapper p {
+        font-size: 45px;
+    }
+
+    section.email {
+        height: 425px;
+    }
+    #open .wrapper h1{
+        font-size: 30px;
+    }
+    footer section.wrapper div.right ul{
+        display: none;
+    }
+    footer section.wrapper div.left{
+        width: 50%;
+    }
+
+}
+
+header section.wrapper section.head div.right>ul>li>div.img {
+
+    width: 50%;
+}
+
+header section.wrapper section.head>div.right>ul>li>div.img>img {
+    display: block;
+    width: 100%;
+    filter: invert();
 }
