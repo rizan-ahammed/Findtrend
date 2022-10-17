@@ -811,6 +811,11 @@ footer section.wrapper div.right ul li {}
         margin-top: 100px;
         font-size: 49px;
     }
+
+    section.bottom section.sticker {
+        width: 100%;
+
+    }
 }
 
 
@@ -871,6 +876,10 @@ footer section.wrapper div.right ul li {}
 }
 
 @media all and (max-width: 980px) {
+    header {
+        height: 769px;
+    }
+
     #open .wrapper .left {
         left: 13%;
     }
@@ -880,7 +889,8 @@ footer section.wrapper div.right ul li {}
     }
 
     section.bottom section.container h1 {
-        font-size: 30px;
+        font-size: 37px;
+        width: 69%;
     }
 
     section.bottom section.container p {
@@ -940,7 +950,48 @@ footer section.wrapper div.right ul li {}
     section#deal section.wrapper div.mac div.arrow {
         display: none;
     }
-    footer section.wrapper div.right{
+
+    footer section.wrapper div.right {
         width: 55%;
     }
+
+    section.bottom section.container a.button {
+        padding: 14px 42px;
+        font-size: 15px;
+    }
+
+    section.bottom section.sticker div.one {
+        width: 20%;
+        top: -27px;
+    }
+
+    section.bottom section.sticker div.two {
+        width: 20%;
+        top: -7px;
+    }
+
+    section.bottom section.sticker div.three {
+        width: 20%;
+        top: -44px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    header {
+        height: 641px;
+    }
+
+    section.bottom section.container h1 {
+        width: 100%;
+        font-size: 43px;
+    }
+
+    section.bottom section.container p {
+        width: 100%;
+    }
+
+    section.bottom section.sticker {
+        display: none;
+    }
+
 }
