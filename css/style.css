@@ -175,6 +175,17 @@ header .wrapper section.head .right ul li {
     margin-top: 23px;
 }
 
+header .wrapper section.head div.right div.img {
+
+    width: 25%;
+    display: none;
+}
+
+header .wrapper section.head div.right div.img img {
+    display: block;
+    width: 100%;
+}
+
 header .wrapper section.head .right ul li a {
     color: #e8e8e8;
 
@@ -771,7 +782,6 @@ footer section.wrapper div.right ul li {}
 
     section.bottom section.container h1 {
         font-size: 50px;
-        50px
     }
 }
 
@@ -1133,25 +1143,87 @@ footer section.wrapper div.right ul li {}
     section.email {
         height: 425px;
     }
-    #open .wrapper h1{
+
+    #open .wrapper h1 {
         font-size: 30px;
     }
-    footer section.wrapper div.right ul{
+
+    footer section.wrapper div.right ul {
         display: none;
     }
-    footer section.wrapper div.left{
+
+    footer section.wrapper div.left {
         width: 50%;
     }
 
+    header .wrapper section.head div.right div.img {
+        width: 100%;
+        display: block;
+        margin-top: -70px;
+        padding-left: 30px;
+
+    }
+
+    header .wrapper section.head div.right ul li {
+        display: none;
+    }
+
 }
 
-header section.wrapper section.head div.right>ul>li>div.img {
+@media all and (max-width: 480px) {
+    header .wrapper section.head .left h1 {
+        width: 70%;
+    }
 
-    width: 50%;
-}
+    header .wrapper section.head div.right div.img {}
 
-header section.wrapper section.head>div.right>ul>li>div.img>img {
-    display: block;
-    width: 100%;
-    filter: invert();
+    div.button-bottom{
+        margin-top: 9%;
+    }
+
+    div.button-bottom-two {
+        margin-top: 9%;
+    }
+    section.email section.wrapper h1{
+        font-size: 30px;
+    }
+    section.email section.wrapper p{
+        font-size: 30px;
+    }
+    section.email section.wrapper a.button{
+        font-size: 16px;
+    }
+    section.musk section.wrapper section.top div.button a.button{
+        width: 36%;
+        font-size: 12px;
+    }
+    section#logo{
+        display: none;
+    }
+    #open .wrapper h1{
+        font-size: 27px;
+    }
+    #open .wrapper .search{
+        right: 97px;
+        width: 45%;
+    }
+    #open .wrapper p{
+        margin: 178px auto;
+
+    }
+    #deal .wrapper div.deal-bottom div.one h5{
+        font-size: 29px;
+    }
+
+    #deal .wrapper div.deal-bottom div.two h5{
+        font-size: 29px;
+    }
+    #deal div.deal-bottom div.one{
+        padding: 8%
+        ;
+    }
+    #deal div.deal-bottom div.two{
+        padding: 8%;
+    }
+
 }
