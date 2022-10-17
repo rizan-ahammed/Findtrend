@@ -523,7 +523,7 @@ section#deal section.wrapper div.mac div.toggle img {
 
 section#deal section.wrapper div.mac div.toggle span {
     margin: 50px;
-    color: #fff;
+    color: hsl(0%,0%,50%);
 }
 
 section#deal section.wrapper div.mac div.toggle div.arrow {}
@@ -1226,4 +1226,42 @@ footer section.wrapper div.right ul li {}
         padding: 8%;
     }
 
+}
+
+@media all and (max-width: 360px){
+    header .wrapper section.head div.right div.img{
+        display: none;
+
+    }
+    header .wrapper section.head .left h1{
+        width: 100%;
+    }
+    section.bottom section.container h1{
+        font-size: 17px;
+
+    }
+    section.bottom section.container p{
+        width: 85%;
+    }
+    section.bottom section.container a.button span{
+        display: none;
+    }
+    section.bottom section.container a.button{
+        font-size: 51%;
+    }
+    #open .wrapper h1{
+        font-size: 21px;
+        padding: 0;
+        padding-top: 68px;
+        padding-bottom: 60px;
+    }
+    #deal div.deal-bottom div.one{
+        padding: 12%;
+    }
+    #deal div.deal-bottom div.two{
+        padding: 12%;
+    }
+    section#deal{
+        height: 180vh;
+    }
 }
