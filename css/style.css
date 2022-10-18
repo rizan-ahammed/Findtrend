@@ -523,13 +523,14 @@ section#deal section.wrapper div.mac div.toggle img {
 
 section#deal section.wrapper div.mac div.toggle span {
     margin: 50px;
-    color: hsl(0%,0%,50%);
+    color: #636363;
 }
 
 section#deal section.wrapper div.mac div.toggle div.arrow {}
 
 section#deal section.wrapper div.mac div.toggle div.arrow img {
-    width: 100%;
+    width: 100%;           </ul>
+              
     display: block;
 }
 
@@ -1177,91 +1178,110 @@ footer section.wrapper div.right ul li {}
 
     header .wrapper section.head div.right div.img {}
 
-    div.button-bottom{
+    div.button-bottom {
         margin-top: 9%;
     }
 
     div.button-bottom-two {
         margin-top: 9%;
     }
-    section.email section.wrapper h1{
+
+    section.email section.wrapper h1 {
         font-size: 30px;
     }
-    section.email section.wrapper p{
+
+    section.email section.wrapper p {
         font-size: 30px;
     }
-    section.email section.wrapper a.button{
+
+    section.email section.wrapper a.button {
         font-size: 16px;
     }
-    section.musk section.wrapper section.top div.button a.button{
+
+    section.musk section.wrapper section.top div.button a.button {
         width: 36%;
         font-size: 12px;
     }
-    section#logo{
+
+    section#logo {
         display: none;
     }
-    #open .wrapper h1{
+
+    #open .wrapper h1 {
         font-size: 27px;
     }
-    #open .wrapper .search{
+
+    #open .wrapper .search {
         right: 97px;
         width: 45%;
     }
-    #open .wrapper p{
+
+    #open .wrapper p {
         margin: 178px auto;
 
     }
-    #deal .wrapper div.deal-bottom div.one h5{
+
+    #deal .wrapper div.deal-bottom div.one h5 {
         font-size: 29px;
     }
 
-    #deal .wrapper div.deal-bottom div.two h5{
+    #deal .wrapper div.deal-bottom div.two h5 {
         font-size: 29px;
     }
-    #deal div.deal-bottom div.one{
-        padding: 8%
-        ;
+
+    #deal div.deal-bottom div.one {
+        padding: 8%;
     }
-    #deal div.deal-bottom div.two{
+
+    #deal div.deal-bottom div.two {
         padding: 8%;
     }
 
 }
 
-@media all and (max-width: 360px){
-    header .wrapper section.head div.right div.img{
+@media all and (max-width: 360px) {
+    header .wrapper section.head div.right div.img {
         display: none;
 
     }
-    header .wrapper section.head .left h1{
+
+    header .wrapper section.head .left h1 {
         width: 100%;
     }
-    section.bottom section.container h1{
+
+    section.bottom section.container h1 {
         font-size: 17px;
 
     }
-    section.bottom section.container p{
+
+    section.bottom section.container p {
         width: 85%;
     }
-    section.bottom section.container a.button span{
+
+    section.bottom section.container a.button span {
         display: none;
     }
-    section.bottom section.container a.button{
+
+    section.bottom section.container a.button {
         font-size: 51%;
     }
-    #open .wrapper h1{
+
+    #open .wrapper h1 {
         font-size: 21px;
         padding: 0;
         padding-top: 68px;
         padding-bottom: 60px;
     }
-    #deal div.deal-bottom div.one{
+
+    #deal div.deal-bottom div.one {
         padding: 12%;
     }
-    #deal div.deal-bottom div.two{
+
+    #deal div.deal-bottom div.two {
         padding: 12%;
     }
-    section#deal{
+
+    section#deal {
         height: 180vh;
     }
 }
